@@ -1,8 +1,8 @@
 class ListaNegociacoes {
 
     constructor(){
-        
-        this._negociacoes = []
+
+        this._negociacoes = [];
     }
 
     adiciona(negociacao){
@@ -12,6 +12,6 @@ class ListaNegociacoes {
 
     get negociacoes(){
 
-        return this._negociacoes;
+        return [].concat(this._negociacoes);
     }
 }
